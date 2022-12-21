@@ -1,0 +1,10 @@
+teamlist = []  # create an empty list called teamlist
+
+# use a for loop to append 11 names to the list
+for i in range(11):
+    name = input("Enter a name: ")  # prompt the user to enter a name
+    teamlist.append(name)  # add the name to the list
+
+# traverse the list, printing out each name
+for name in teamlist:
+    print(name)
