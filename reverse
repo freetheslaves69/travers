@@ -1,0 +1,9 @@
+colors = []  # create an empty list of colors
+
+while len(colors) < 5:  # keep looping while the list has fewer than 5 elements
+    color = input("Enter a color: ")  # prompt the user to enter a color
+    colors.append(color)  # add the color to the list
+
+# use a for loop to traverse the list and print each element
+for color in colors:
+    print(color)
